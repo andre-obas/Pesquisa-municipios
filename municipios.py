@@ -8,7 +8,7 @@ ox = []
 for file in glob.glob("*.*"):
     for j in range(0, 1):  # Pra copiar o nome do arquivo apenas 1 vez
         replaced_text = file.replace('.xlsx', '') # Retira o final do arquivo se for ".xlsx".
-                                                            # Se for pdf tem que ser feito manualmente ou mudar essa linha
+                                                  # Se for pdf tem que ser feito manualmente ou mudar essa linha
         ox.append(replaced_text)
 
 # Colocar aqui o atalho da planilha excel (deve ser criada previamente)
